@@ -1,0 +1,10 @@
+command:
+    !cleartweet
+message:
+    edit !retweet No tweet is currently set. But you can tweet the stream $(tweet Come watch $(channel) $(twitch $(channel) "{{game}} on Twitch! {{url}}"))
+userlevel:
+    Moderator
+alias:
+    !commands
+usage:
+    !cleartweet

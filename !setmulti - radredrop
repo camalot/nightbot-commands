@@ -1,0 +1,8 @@
+command:
+    !setmulti
+message:
+    edit !multi /me $(twitch $(channel) "{{displayName}}") is streaming with $(eval ("$(query)" || "").replace(/\//g, ', ')) : Watch from everyone's perspective here: https://multi.raredrop.co/t$(channel)/t$(eval ("$(query)" || "").toLowerCase().replace(/\@/gi,'').replace(/\//g, '/t'))
+userlevel:
+    Moderator
+alias:
+    !commands

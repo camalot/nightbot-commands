@@ -1,0 +1,7 @@
+command: 
+    !sc
+message: 
+    There are $(eval lifetimes = 1; response = $(twitch subcount); count = parseInt(response); if (isNaN(count)){response} else {(count <= lifetimes ? 0 : count - lifetimes) + " subscribers to the channel."})
+userlevel:
+    Moderator
+alias:

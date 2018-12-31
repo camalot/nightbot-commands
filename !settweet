@@ -1,0 +1,10 @@
+command:
+    !settweet
+message:
+    edit !retweet /me Want to help promote the stream? Retweet the stream tweet. $(query)
+userlevel:
+    Moderator
+alias:
+    !commands
+usage:
+    !settweet https://twitter.com/abryanconrad/status/1079619797564968960
