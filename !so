@@ -1,0 +1,1 @@
+Make sure to give $(touser) a follow! $(twitch $(eval user = "$(touser)".replace(/^\@/gi,''); user.toString();) "{{displayName}} was last seen playing {{game}}") - Give $(touser) a follow at https://twitch.tv/$(eval user = "$(touser)".replace(/^\@/gi,''); user.toString();)
