@@ -1,0 +1,10 @@
+command:
+    !bttv
+message:
+    Available BTTV Emotes: $(customapi https://decapi.me/bttv/emotes?channel=$(channel)) - Get BTTV https://www.nightdev.com/betterttv/
+userlevel:
+    Everyone
+alias:
+    
+usage:
+    !bttv

@@ -1,0 +1,9 @@
+comamnd:
+    !zircfact
+message:
+    $(eval joke = JSON.parse(`$(urlfetch http://api.icndb.com/jokes/random)`) || { value: { joke: "No Chuck Norris fact was good enough for Chuck Norris" } }; (joke.value.joke || "").replace(/chuck(\snorris)?/gmi,'iZirc'))
+userlevel:
+    Everyone
+alias:
+usage:
+    !zircfact

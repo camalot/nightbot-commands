@@ -1,0 +1,10 @@
+command:
+    !retweet
+message:
+    Support the stream and retweet the latest tweet from $(twitch $(channel) "{{displayName}}") : $(customapi https://decapi.me/twitter/latest?name=YOUR_TIWTTER_ACCOUNT&no_rts=1&howlong=1&url=1)
+userlevel:
+    Everyone
+alias:
+    
+usage:
+    !retweet
