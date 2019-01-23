@@ -1,0 +1,13 @@
+comamnd:
+    !sample
+message:
+    A sample command
+userlevel:
+    everyone
+alias:
+cooldown:
+    30
+usage:
+    !sample
+description:
+    A sample command
