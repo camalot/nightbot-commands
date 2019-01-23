@@ -1,7 +1,0 @@
-command:
-    !so
-message:
-    Give $(touser) a follow at https://twitch.tv/$(eval user = "$(touser)".replace(/^\@/gi,''); user.toString();)
-userlevel:
-    Moderator
-alias:
