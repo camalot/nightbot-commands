@@ -1,13 +1,8 @@
-command:
-    !bttv
+command: !bttv
 message:
     'Available BTTV Emotes: $(customapi https://decapi.me/bttv/emotes?channel=$(channel)) - Get BTTV https://www.nightdev.com/betterttv/'
-userlevel:
-    everyone
-cooldown:
-    30
-alias:
-description:
-    Show BTTV channel emotes in the chat.
-usage:
-    !bttv
+userlevel: everyone
+cooldown: 30
+alias: 
+description: Show BTTV channel emotes in the chat.
+usage: !bttv
