@@ -5,4 +5,5 @@ userlevel: everyone
 cooldown: 30
 alias: 
 description: Show BTTV channel emotes in the chat.
-usage: !bttv
+usage: |
+    !bttv
