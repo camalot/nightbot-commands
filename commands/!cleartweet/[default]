@@ -3,8 +3,12 @@ command:
 message:
     edit !retweet No tweet is currently set. But you can tweet the stream $(tweet Come watch $(channel) $(twitch $(channel) "{{game}} on Twitch! {{url}}"))
 userlevel:
-    Moderator
+    moderator
 alias:
     !commands
+cooldown:
+    30
 usage:
     !cleartweet
+description:
+    clear the !retweet command, if you use the !settweet.

@@ -3,5 +3,11 @@ command:
 message:
     Make sure to give $(touser) a follow! $(twitch $(eval user = "$(touser)".replace(/^\@/gi,''); user.toString();) "{{displayName}} was last seen playing {{game}}") - Give $(touser) a follow at https://twitch.tv/$(eval user = "$(touser)".replace(/^\@/gi,''); user.toString();)
 userlevel:
-    Moderator
+    moderator
+cooldown:
+    30
 alias:
+description:
+    Shout out a user to put his channel link in the chat.
+usage:
+    !so @DarthMinos

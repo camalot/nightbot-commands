@@ -3,5 +3,11 @@ command:
 message:
     $(twitch $(channel) "{{displayName}}") is not currently streaming with anyone else, but thank you for checking.
 userlevel:
-    Everyone
+    everyone
+cooldown:
+    30
 alias:
+usage:
+    !multi
+description:
+    Displays the current multi stream link

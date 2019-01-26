@@ -1,0 +1,14 @@
+command:
+    !settweet
+message:
+    edit !retweet Want to help promote the stream? Retweet the stream tweet. $(query)
+userlevel:
+    moderator
+alias:
+    !commands
+cooldown:
+    30
+usage:
+    !settweet https://twitter.com/abryanconrad/status/1079619797564968960
+deacription:
+    Sets a tweet to show when the !retweet command is used.

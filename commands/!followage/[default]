@@ -3,5 +3,11 @@ command:
 message:
     $(touser) Has Been Following $(channel) On Twitch Since $(customapi http://api.newtimenow.com/follow-length/?channel=$(channel)&user=$(eval "$(touser)".replace(/\@/gi,'');))
 userlevel:
-    Everyone
+    everyone
+cooldown:
+    30
 alias:
+usage:
+    !followage @DarthMinos
+description:
+    says when the user followed the channel.

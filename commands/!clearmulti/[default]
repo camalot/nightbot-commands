@@ -3,6 +3,12 @@ command:
 message:
     edit !multi $(twitch $(channel) "{{displayName}}") is not currently streaming with anyone else, but thank you for checking.
 userlevel:
-    Moderator
+    moderator
 alias:
     !commands
+cooldown:
+    30
+usage:
+    !clearmulti
+description:
+    Clear a previously set !multi command

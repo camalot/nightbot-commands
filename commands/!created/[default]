@@ -3,8 +3,12 @@ command:
 message:
     $(twitch $(eval "$(user)".replace(/\@/gi, '');) "The account {{displayName}} was created on the date of: {{createdAt}}")
 userlevel:
-    Moderator
+    moderator
 alias:
 
+cooldown:
+    30
 usage:
-    !created @username
+    !created @DarthMinos
+description:
+    Shows when the users twitch account was created
