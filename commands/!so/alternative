@@ -1,7 +1,7 @@
 command:
     !so
 message:
-    Give $(touser) a follow at https://twitch.tv/$(eval "$(touser)".replace(/^\@/gi,'');)
+    'Give $(touser) a follow at https://twitch.tv/$(eval "$(touser)".replace(/^\@/gi,"");)'
 userlevel:
     moderator
 cooldown:

@@ -1,7 +1,7 @@
 comamnd:
     !sample
 message:
-    A second version of sample command
+    'A second version of sample command'
 userlevel:
     everyone
 alias:

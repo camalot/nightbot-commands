@@ -1,7 +1,7 @@
 command:
     !multi
 message:
-    $(twitch $(channel) "{{displayName}}") is not currently streaming with anyone else, but thank you for checking.
+    '$(twitch $(channel) "{{displayName}}") is not currently streaming with anyone else, but thank you for checking.'
 userlevel:
     everyone
 cooldown:

@@ -1,7 +1,7 @@
 command:
     !created
 message:
-    $(twitch $(eval "$(user)".replace(/\@/gi, '');) "The account {{displayName}} was created on the date of: {{createdAt}}")
+    '$(twitch $(eval "$(user)".replace(/\@/gi, '');) "The account {{displayName}} was created on the date of: {{createdAt}}")'
 userlevel:
     moderator
 alias:

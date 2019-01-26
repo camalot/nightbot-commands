@@ -1,7 +1,7 @@
 command:
     !settweet
 message:
-    edit !retweet Want to help promote the stream? Retweet the stream tweet. $(query)
+    'edit !retweet Want to help promote the stream? Retweet the stream tweet. $(query)'
 userlevel:
     moderator
 alias:
