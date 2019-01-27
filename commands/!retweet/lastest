@@ -10,3 +10,5 @@ description: |
     Shows the latest tweet from you. Make sure you change ${YOUR_TIWTTER_ACCOUNT} to your twitter account. 
 variables:
     - YOUR_TIWTTER_ACCOUNT
+sample: |
+    Support the stream and retweet the latest tweet from DarthMinos : Live with @Krymzun @PanderzLive @JayAstroh on some XBOX #RainbowSixSiege ... maybe setting sail on the 7 seas later?  https://t.co/FhomdGfblF https://t.co/NUokkIyntM - https://twitter.com/abryanconrad/status/1089276557552697344 - 19 hours, 53 minutes, 44 seconds ago

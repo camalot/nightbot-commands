@@ -8,3 +8,5 @@ alias: '!commands'
 usage: '!semulti @DarthMinos/@Sabborn/@TheKrymzun'
 description: |
     Sets the multi link with the list of people using multitwitch.tv
+sample: |
+    DarthMinos is streaming with thekrymzun, sabborn : Watch from everyone's perspective here: http://multitwitch.tv/darthminos/thekrymzun/sabborn
