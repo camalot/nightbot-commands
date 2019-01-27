@@ -10,5 +10,5 @@ description: |
 sample: |
     @DarthMinos -> The command "!retweet" has been edited successfully.
 required:
-    - !retweet/[default]
-    - !settweet/[default]
+- !retweet/[default]
+- !settweet/[default]

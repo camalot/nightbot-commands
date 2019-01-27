@@ -15,5 +15,5 @@ deacription: |
 sample: |
     @DarthMinos -> The command "!retweet" has been edited successfully.
 required:
-    - !retweet/[default]
-    - !cleartweet/[default]
+- !retweet/[default]
+- !cleartweet/[default]
