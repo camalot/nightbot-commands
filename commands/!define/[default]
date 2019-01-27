@@ -1,0 +1,12 @@
+# http://api.urbandictionary.com/v0/define?term=
+command: '!define'
+message: |
+    $(eval list = $(customapi http://api.urbandictionary.com/v0/define?term=$(query)); list ? `$(query) : ${list[0].definition}` : "No definition for $(query) was found")
+userlevel: 'everyone'
+cooldown: 30
+alias:
+usage: '!define life'
+description: |
+    Says when the user followed the channel.
+sample: |
+     A sexually-transmitted, [terminal disease].
