@@ -1,13 +1,13 @@
-comamnd:
+comamnd: |
     !sample
-message:
-    'A second version of sample command'
+message: |
+    A second version of sample command
 userlevel:
     everyone
 alias:
 cooldown:
     30
-usage:
+usage: |
     !sample
-description:
+description: | 
     A sample command
