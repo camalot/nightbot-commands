@@ -7,6 +7,6 @@ cooldown: 30
 alias:
 usage: '!define life'
 description: |
-    Says when the user followed the channel.
+    Looks up term on urbandictionary.
 sample: |
      life: A sexually-transmitted, [terminal disease].
