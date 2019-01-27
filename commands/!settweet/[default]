@@ -14,3 +14,6 @@ deacription: |
     Sets a tweet to show when the !retweet command is used.
 sample: |
     @DarthMinos -> The command "!retweet" has been edited successfully.
+required:
+    - !retweet/[default]
+    - !cleartweet/[default]

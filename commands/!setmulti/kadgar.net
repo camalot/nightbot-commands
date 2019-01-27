@@ -10,3 +10,6 @@ description: |
     Sets the multi link with the list of people using kadgar.net
 sample: |
     @DarthMinos -> The command "!multi" has been edited successfully.
+required:
+    - !multi/[default]
+    - !clearmulti/[default]
