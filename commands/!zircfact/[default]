@@ -1,13 +1,11 @@
-command: |
-    !zircfact
-message:
+command: '!zircfact'
+message: |
     $(eval joke = JSON.parse(`$(urlfetch http://api.icndb.com/jokes/random)`) || { value: { joke: "No Chuck Norris fact was good enough for Chuck Norris" } }; (joke.value.joke || "").replace(/chuck(\snorris)?/gmi,"iZirc"))
 userlevel:
     everyone
 cooldown:
     30
 alias:
-usage: |
-    !zircfact
+usage: '!zircfact'
 description: |
     Display a zirc fact!
