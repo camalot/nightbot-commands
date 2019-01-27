@@ -9,4 +9,4 @@ usage: '!define life'
 description: |
     Says when the user followed the channel.
 sample: |
-     A sexually-transmitted, [terminal disease].
+     life: A sexually-transmitted, [terminal disease].
