@@ -8,6 +8,6 @@ cooldown:
     30
 alias:
 description: |
-    Shout out a user to put his channel link in the chat.
+    Shout out a user to put their channel link in the chat.
 usage: |
     !so @DarthMinos
