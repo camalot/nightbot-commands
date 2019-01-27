@@ -1,9 +1,13 @@
+# https://2g.be/twitch/following.php?user=thekrymzun&channel=darthminos&format=mwdhms
+
 command: '!followage'
 message: |
-    $(touser) Has Been Following $(channel) On Twitch Since $(customapi http://api.newtimenow.com/follow-length/?channel=$(channel)&user=$(eval "$(touser)".replace(/\@/gi,"");))
+    $(customapi https://2g.be/twitch/following.php?user=$(eval "$(touser)".replace(/\@/gi,""))&channel=$(channel)&format=mwdhms)
 userlevel: 'everyone'
 cooldown: 30
 alias:
-usage: '!followage @DarthMinos'
+usage: '!followage @thekrymzun'
 description: |
     Says when the user followed the channel.
+sample: |
+     thekrymzun has been following darthminos for 10 months, 3 weeks, 4 days, 3 hours, 1 minute, 46 seconds

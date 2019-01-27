@@ -1,0 +1,11 @@
+command: '!followsince'
+message: |
+    $(twitch $(touser) "{{displayName}}") Has Been Following $(twitch $(channel) "{{displayName}}") On Twitch Since $(customapi http://api.newtimenow.com/follow-length/?channel=$(channel)&user=$(eval "$(touser)".replace(/\@/gi,"");))
+userlevel: 'everyone'
+cooldown: 30
+alias:
+usage: '!followsince @thekrymzun'
+description: |
+    Says when the user followed the channel.
+sample: |
+     TheKrymzun Has Been Following DarthMinos On Twitch Since 2018-03-02 06:37:48

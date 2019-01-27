@@ -7,3 +7,5 @@ cooldown: 30
 usage: '!cleartweet'
 description: |
     clear the !retweet command, if you use the !settweet.
+sample: |
+    @DarthMinos -> The command "!retweet" has been edited successfully.

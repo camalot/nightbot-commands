@@ -7,3 +7,5 @@ alias:
 usage: '!multi'
 description: |
     Displays the current multi stream link
+sample: |
+    DarthMinos is streaming with thekrymzun, sabborn : Watch from everyone's perspective here: https://multi-stream.tv/twitch,darthminos/twitch,thekrymzun/twitch,sabborn

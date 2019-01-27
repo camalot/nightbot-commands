@@ -7,3 +7,5 @@ cooldown: 30
 usage: '!clearmulti'
 description: |
     Clear a previously set !multi command
+sample: |
+    @DarthMinos -> The command "!multi" has been edited successfully.

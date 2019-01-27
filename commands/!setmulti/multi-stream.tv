@@ -9,4 +9,4 @@ usage: '!semulti @DarthMinos/@Sabborn/@TheKrymzun'
 description: |
     Sets the multi link with the list of people using multi-stream.tv
 sample: |
-    DarthMinos is streaming with thekrymzun, sabborn : Watch from everyone's perspective here: https://multi-stream.tv/twitch,darthminos/twitch,thekrymzun/twitch,sabborn
+@DarthMinos -> The command "!multi" has been edited successfully.
