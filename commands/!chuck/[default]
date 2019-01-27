@@ -1,0 +1,13 @@
+command: '!chuck'
+message: |
+    $(eval joke = JSON.parse(`$(urlfetch http://api.icndb.com/jokes/random)`) || { value: { joke: "No Chuck Norris fact was good enough for Chuck Norris" } }; (joke.value.joke || ""))
+userlevel:
+    everyone
+cooldown:
+    30
+alias:
+usage: '!chuck'
+description: |
+    Displays a Chuck Norris Fact
+sample: |
+    Chuck Norris doesn't need a sample response from nightbot.
