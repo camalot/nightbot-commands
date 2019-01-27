@@ -10,5 +10,5 @@ description: |
 sample: |
     DarthMinos is streaming with thekrymzun, sabborn : Watch from everyone's perspective here: https://multi-stream.tv/twitch,darthminos/twitch,thekrymzun/twitch,sabborn
 required:
-- !setmulti/[default]
-- !clearmulti/[default]
+- '!setmulti/[default]'
+- '!clearmulti/[default]'

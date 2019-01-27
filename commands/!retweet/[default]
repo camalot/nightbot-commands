@@ -11,5 +11,5 @@ description: |
 sample: |
     Want to help promote the stream? Retweet the stream tweet. https://twitter.com/abryanconrad/status/1079619797564968960
 required:
-- !cleartweet/[default]
-- !settweet/[default]
+- '!cleartweet/[default]'
+- '!settweet/[default]'
