@@ -1,0 +1,10 @@
+# http://squadup.gg/?streamers=thekrymzun%20darthminos%20sabborn
+command: '!setmulti'
+message: |
+    edit !multi $(twitch $(channel) "{{displayName}}") is streaming with $(eval ("$(query)" || "").replace(/\//g, ", ")) : Watch from everyone's perspective here: http://squadup.gg/?streamers=$(channel)%20$(eval ("$(query)" || "").toLowerCase().replace(/\@/gi,"").replace(/\//g, "%20"))
+userlevel: 'moderator'
+cooldown: 30
+alias: '!commands'
+usage: '!semulti @DarthMinos/@Sabborn/@TheKrymzun'
+description: |
+    Sets the multi link with the list of people using squadup.gg

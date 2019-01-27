@@ -1,0 +1,10 @@
+# https://kadgar.net/live/sabborn/thekrymzun/darthminos
+command: '!setmulti'
+message: |
+    edit !multi $(twitch $(channel) "{{displayName}}") is streaming with $(eval ("$(query)" || "").replace(/\//g, ", ")) : Watch from everyone's perspective here: https://kadgar.net/live/$(channel)/$(eval ("$(query)" || "").toLowerCase().replace(/\@/gi,""))
+userlevel: 'moderator'
+cooldown: 30
+alias: '!commands'
+usage: '!semulti @DarthMinos/@Sabborn/@TheKrymzun'
+description: |
+    Sets the multi link with the list of people using kadgar.net

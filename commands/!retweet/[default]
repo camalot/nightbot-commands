@@ -1,12 +1,10 @@
-command: |
-    !retweet
+command: '!retweet'
 message: |
     No tweet is currently set. But you can tweet the stream $(tweet Come watch $(channel) $(twitch $(channel) "{{game}} on Twitch! {{url}}"))
-userlevel:
-    everyone
-cooldown:
-    30
+userlevel: 'everyone'
+cooldown: 30
 alias:
     
-usage: |
-    !retweet
+usage: '!retweet'
+description: |
+    Displays the currently set tweet url. Set from !settweet.

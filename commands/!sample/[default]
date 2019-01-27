@@ -1,13 +1,9 @@
-comamnd: |
-    !sample
+comamnd: '!sample'
 message: |
     A sample command
-userlevel:
-    everyone
+userlevel: 'everyone'
 alias:
-cooldown:
-    30
-usage: |
-    !sample
+cooldown: 30
+usage: '!sample'
 description: |
     A sample command

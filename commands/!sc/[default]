@@ -1,11 +1,8 @@
-command: |
-    !sc
+command: '!sc'
 message: |
     There are $(eval lifetimes = 1; response = $(twitch subcount); count = parseInt(response); if (isNaN(count)){response} else {(count <= lifetimes ? 0 : count - lifetimes) + " subscribers to the channel."})
-userlevel:
-    moderator
+userlevel: 'moderator'
 alias:
-usage: |
-    !sc
+usage: '!sc'
 description: |
     Displays the total number of people subscribed to the channel. 

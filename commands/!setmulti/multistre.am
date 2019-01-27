@@ -1,0 +1,10 @@
+# https://multistre.am/darthminos/thekrymzun/sabborn
+command: '!setmulti'
+message: |
+    edit !multi $(twitch $(channel) "{{displayName}}") is streaming with $(eval ("$(query)" || "").replace(/\//g, ", ")) : Watch from everyone's perspective here: https://multistre.am/$(channel)/$(eval ("$(query)" || "").toLowerCase().replace(/\@/gi,""))
+userlevel: 'moderator'
+cooldown: 30
+alias: '!commands'
+usage: '!semulti @DarthMinos/@Sabborn/@TheKrymzun'
+description: |
+    Sets the multi link with the list of people using multitwitch.tv
