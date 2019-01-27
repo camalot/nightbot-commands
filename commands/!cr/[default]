@@ -1,0 +1,11 @@
+command: '!cr'
+message: |
+    $(touser) Please refrain from talking about your stream in any fashion, unless $(channel) is talking about it. Self Promotion of any kind is poor Twitch etiquette and may result in timeout or ban!
+userlevel: 'everyone'
+cooldown: 30
+alias:
+usage: '!cr'
+description: |
+    Informs chat to not talk about their own stream, unless the streamer is directly talking about it.
+sample: |
+    Please refrain from talking about your stream in any fashion, unless DarthMinos is talking about it. Self Promotion of any kind is poor Twitch etiquette and may result in timeout or ban!

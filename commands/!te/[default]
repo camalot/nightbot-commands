@@ -1,0 +1,11 @@
+command: '!te'
+message: |
+    $(touser) If you are new to Twitch or you are not sure what might be acceptable, take a quick look at this basic guide to Twitch Etiquette: https://medium.com/@cypheroftyr/twitch-etiquette-some-things-ive-learned-b89c5ed51f5d
+cooldown: 30
+userlevel: 'everyone'
+alias:
+usage: '!te
+description: |
+    Displays a message and a link to educate someone on proper twitch etiquette.
+sample: |
+    If you are new to Twitch or you are not sure what might be acceptable, take a quick look at this basic guide to Twitch Etiquette: https://medium.com/@cypheroftyr/twitch-etiquette-some-things-ive-learned-b89c5ed51f5d
