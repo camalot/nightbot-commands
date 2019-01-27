@@ -1,13 +1,13 @@
-comamnd:
+comamnd: |
     !fuku
-message:
-    '$(eval fu = JSON.parse(`$(urlfetch http://fuku.io/api/$(query))`) || { value: { text: "Fuck You", language: "English", code: "en" } }; (`${fu.text} (${fu.language}) ${fu.help ? " - " + fu.help : "" }` || "Fuck You (English)")) - http://fuku.io/$(query)'
+message: |
+    $(eval fu = JSON.parse(`$(urlfetch http://fuku.io/api/$(query))`) || { value: { text: "Fuck You", language: "English", code: "en" } }; (`${fu.text} (${fu.language}) ${fu.help ? " - " + fu.help : "" }` || "Fuck You (English)")) - http://fuku.io/$(query)
 userlevel:
     everyone
 cooldown:
     30
 alias:
-usage:
-    !fuku <lang>
-description:
+usage: |
+    !fuku ru
+description: |
     uses fuku.io to display 'Fuck You' in the specified language in chat. 

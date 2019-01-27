@@ -1,12 +1,12 @@
-command:
+command: |
     !retweet
-message:
-    'No tweet is currently set. But you can tweet the stream $(tweet Come watch $(channel) $(twitch $(channel) "{{game}} on Twitch! {{url}}"))'
+message: |
+    No tweet is currently set. But you can tweet the stream $(tweet Come watch $(channel) $(twitch $(channel) "{{game}} on Twitch! {{url}}"))
 userlevel:
     everyone
 cooldown:
     30
 alias:
     
-usage:
+usage: |
     !retweet

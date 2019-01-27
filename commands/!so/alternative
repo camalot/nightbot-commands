@@ -1,13 +1,13 @@
-command:
+command: |
     !so
-message:
-    'Give $(touser) a follow at https://twitch.tv/$(eval "$(touser)".replace(/^\@/gi,"");)'
+message: |
+    Give $(touser) a follow at https://twitch.tv/$(eval "$(touser)".replace(/^\@/gi,"");)
 userlevel:
     moderator
 cooldown:
     30
 alias:
-description:
+description: |
     Shout out a user to put his channel link in the chat.
-usage:
+usage: |
     !so @DarthMinos

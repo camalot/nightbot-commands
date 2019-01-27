@@ -1,16 +1,16 @@
-command:
+command: |
     !retweet
-message:
-    'Support the stream and retweet the latest tweet from $(twitch $(channel) "{{displayName}}") : $(customapi https://decapi.me/twitter/latest?name=${YOUR_TIWTTER_ACCOUNT}&no_rts=1&howlong=1&url=1)'
+message: |
+    Support the stream and retweet the latest tweet from $(twitch $(channel) "{{displayName}}") : $(customapi https://decapi.me/twitter/latest?name=${YOUR_TIWTTER_ACCOUNT}&no_rts=1&howlong=1&url=1)
 userlevel:
     everyone
 cooldown:
     30
 alias:
     
-usage:
+usage: |
     !retweet
-description:
+description: |
     Shows the latest tweet from you. Make sure you change ${YOUR_TIWTTER_ACCOUNT} to your twitter account. 
 variables:
     - YOUR_TIWTTER_ACCOUNT

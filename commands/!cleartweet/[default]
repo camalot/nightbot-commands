@@ -1,14 +1,14 @@
-command:
+command: |
     !cleartweet
-message:
-    'edit !retweet No tweet is currently set. But you can tweet the stream $(tweet Come watch $(channel) $(twitch $(channel) "{{game}} on Twitch! {{url}}"))'
+message: |
+    edit !retweet No tweet is currently set. But you can tweet the stream $(tweet Come watch $(channel) $(twitch $(channel) "{{game}} on Twitch! {{url}}"))
 userlevel:
     moderator
-alias:
+alias: |
     !commands
 cooldown:
     30
-usage:
+usage: |
     !cleartweet
 description:
     clear the !retweet command, if you use the !settweet.

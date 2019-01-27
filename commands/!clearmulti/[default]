@@ -1,14 +1,14 @@
-command:
+command: |
     !clearmulti
-message:
-    'edit !multi $(twitch $(channel) "{{displayName}}") is not currently streaming with anyone else, but thank you for checking.'
+message: |
+    edit !multi $(twitch $(channel) "{{displayName}}") is not currently streaming with anyone else, but thank you for checking.
 userlevel:
     moderator
-alias:
+alias: |
     !commands
 cooldown:
     30
-usage:
+usage: |
     !clearmulti
 description:
     Clear a previously set !multi command

@@ -1,13 +1,13 @@
-command:
+command: |
     !multi
-message:
-    '$(twitch $(channel) "{{displayName}}") is not currently streaming with anyone else, but thank you for checking.'
+message: |
+    $(twitch $(channel) "{{displayName}}") is not currently streaming with anyone else, but thank you for checking.
 userlevel:
     everyone
 cooldown:
     30
 alias:
-usage:
+usage: |
     !multi
-description:
+description: |
     Displays the current multi stream link

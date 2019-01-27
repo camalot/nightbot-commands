@@ -1,14 +1,14 @@
-command:
+command: |
     !setmulti
-message:
-    'edit !multi /me $(twitch $(channel) "{{displayName}}") is streaming with $(eval ("$(query)" || "").replace(/\//g, ", ")) : Watch from everyone\'s perspective here: https://multi.raredrop.co/t$(channel)/t$(eval ("$(query)" || "").toLowerCase().replace(/\@/gi,"").replace(/\//g, "/t"))'
+message: |
+    edit !multi /me $(twitch $(channel) "{{displayName}}") is streaming with $(eval ("$(query)" || "").replace(/\//g, ", ")) : Watch from everyone\'s perspective here: https://multi.raredrop.co/t$(channel)/t$(eval ("$(query)" || "").toLowerCase().replace(/\@/gi,"").replace(/\//g, "/t"))
 userlevel:
     moderator
 cooldown:
     30
-alias:
+alias: |
     !commands
-usage:
+usage: |
     !semulti @DarthMinos/@Sabborn/@TheKrymzun
-description:
+description: |
     Sets the multi link with the list of people
