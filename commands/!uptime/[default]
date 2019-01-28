@@ -1,0 +1,11 @@
+command: '!uptime'
+message: |
+    $(twitch $(channel) "{{displayName}} has been streaming for: {{uptimeLength}}")
+description:
+    A message showing how long the stream has been live
+userlevel: 'everyone'
+usage: '!uptime'
+cooldown: 10
+alias:
+sample: |
+    DarthMinos has been streaming for: 4 hours, 16 minutes, 22 seconds.
