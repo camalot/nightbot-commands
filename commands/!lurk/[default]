@@ -1,0 +1,11 @@
+command: '!lurk'
+message: |
+    $(twitch $(user) "{{displayName}}") ducks into the shadows and is in full lurk mode! cowntLURK 
+description:
+    A message for the user to notify they are going to lurk mode.
+userlevel: 'everyone'
+usage: !lurk
+cooldown: 10
+alias:
+sample: |
+    DarthMinos ducks into the shadows and is in full lurk mode! cowntLURK

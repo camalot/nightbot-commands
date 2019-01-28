@@ -1,0 +1,11 @@
+command: '!key'
+message: |
+    $(twitch $(channel) "{{displayName}}") Once Said: $(djkhaled)
+userlevel: 'everyone'
+cooldown: 30
+alias:
+usage: '!key'
+description: |
+    A saying from djkhaled.
+sample: |
+     DarthMinos Once Said: They kick you when you’re down, but they wanna kick it when you're up.

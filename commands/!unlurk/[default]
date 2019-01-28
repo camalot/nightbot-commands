@@ -1,0 +1,11 @@
+command: '!unlurk'
+message: |
+    $(twitch $(user) "{{displayName}}") has emerged from the shadows. 
+description:
+    A message for the user to notify they are coming out of lurk mode.
+userlevel: 'everyone'
+usage: !unlurk
+cooldown: 10
+alias:
+sample: |
+    DarthMinos has emerged from the shadows.
