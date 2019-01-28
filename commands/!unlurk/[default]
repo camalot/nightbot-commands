@@ -4,7 +4,7 @@ message: |
 description:
     A message for the user to notify they are coming out of lurk mode.
 userlevel: 'everyone'
-usage: !unlurk
+usage: '!unlurk'
 cooldown: 10
 alias:
 sample: |

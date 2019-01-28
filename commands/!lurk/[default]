@@ -4,7 +4,7 @@ message: |
 description:
     A message for the user to notify they are going to lurk mode.
 userlevel: 'everyone'
-usage: !lurk
+usage: '!lurk'
 cooldown: 10
 alias:
 sample: |
