@@ -7,4 +7,10 @@ alias:
 description: Show BTTV channel emotes in the chat.
 usage: '!bttv'
 sample: |
-    Available BTTV Emotes: <img src="https://cdn.betterttv.net/emote/583089f4737a8e61abb0186b/1x" alt="OMEGALUL" /> <img src="https://cdn.betterttv.net/emote/55f091b9de50f37c0a831147/1x" alt="FeelsBatMan" /> <img src="https://cdn.betterttv.net/emote/59a1d68dcad80a3f6073fbb7/1x" alt="nexBan" /> <img src="https://cdn.betterttv.net/emote/5705b961ea28d0c93482a0bd/1x" alt="CaptFailFish" /> <img alt="pulpTRAVOLTA" src="https://cdn.betterttv.net/emote/5b3f5f83cfdb6b5f928b2883/1x" /> - Get BTTV https://www.nightdev.com/betterttv/
+    Available BTTV Emotes: 
+    <img src="https://cdn.betterttv.net/emote/583089f4737a8e61abb0186b/1x" alt="OMEGALUL" /> 
+    <img src="https://cdn.betterttv.net/emote/55f091b9de50f37c0a831147/1x" alt="FeelsBatMan" /> 
+    <img src="https://cdn.betterttv.net/emote/59a1d68dcad80a3f6073fbb7/1x" alt="nexBan" /> 
+    <img src="https://cdn.betterttv.net/emote/5705b961ea28d0c93482a0bd/1x" alt="CaptFailFish" /> 
+    <img alt="pulpTRAVOLTA" src="https://cdn.betterttv.net/emote/5b3f5f83cfdb6b5f928b2883/1x" /> - 
+    Get BTTV <a href="https://www.nightdev.com/betterttv/">https://www.nightdev.com/betterttv/</a>
