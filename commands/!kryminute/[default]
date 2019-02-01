@@ -1,6 +1,6 @@
 command: '!kryminute'
 message: |
-    $(eval num = 1; if('$(query)' != '' && !isNaN(parseInt('$(query)')) && parseInt('$(query)') > 0 ) { num = parseInt('$(query)'); }; `${num} kryminutes = ${num * 60} regular minutes` )
+    $(eval num = 1; if('$(query)' != '' && !isNaN(parseInt('$(query)')) && parseInt('$(query)') > 0 ) { num = parseInt('$(query)'); }; `${num} kryminutes = ${num * 12} regular minutes` )
 userlevel: 'everyone'
 cooldown: 30
 alias:
@@ -8,4 +8,4 @@ usage: '!kryminute 2'
 description: |
     Converts the number of kryminutes to regular minutes.
 sample: |
-    2 kryminutes = 120 regular minutes.
+    2 kryminutes = 24 regular minutes.
