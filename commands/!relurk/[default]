@@ -1,0 +1,14 @@
+command: '!relurk'
+message: |
+    $(twitch $(user) "{{displayName}}") has ducked back into the shadows and is in full lurk mode again! cowntLURK 
+description:
+    A message for the user to notify they are going back in to lurk mode.
+userlevel: 'everyone'
+usage: '!relurk'
+cooldown: 10
+alias:
+optional:
+- '!lurk/[default]'
+- '!unlurk/[default]'
+sample: |
+    DarthMinos has ducked back into the shadows and is in full lurk mode again! <img src="https://static-cdn.jtvnw.net/emoticons/v1/1748885/1.0" alt="cowntLURK" />

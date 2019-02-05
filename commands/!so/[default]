@@ -1,7 +1,7 @@
 command: |
     !so
 message: |
-    Make sure to give $(touser) a follow! $(twitch $(eval user = "$(touser)".replace(/^\@/gi,""); user.toString();) "{{displayName}} was last seen playing {{game}}") - Give $(touser) a follow at https://twitch.tv/$(eval user = "$(touser)".replace(/^\@/gi,""); user.toString();)
+    Make sure to give $(twitch $(touser) "{{displayName}}") a follow! $(twitch $(eval user = "$(touser)".replace(/^\@/gi,""); user.toString();) "{{displayName}} was last seen playing {{game}}") - https://twitch.tv/$(eval "$(touser)".replace(/^\@/gi,"");)
 userlevel:
     moderator
 cooldown:
@@ -11,3 +11,5 @@ description: |
     Shout out a user to put their channel link in the chat.
 usage: |
     !so @DarthMinos
+sample: |
+    Make sure to give DarthMinos a follow! DarthMinos was last seen playing Apex Legends - <a href="https://twitch.tv/darthminos">https://twitch.tv/darthminos</a>

@@ -5,7 +5,7 @@ userlevel: 'moderator'
 alias:
 cooldown: 30
 usage: '!created @DarthMinos'
-sample:
+sample: |
     The account DarthMinos was created on the date of: Sun Mar 09 2014 11:15:59 GMT-0400 (EDT)
 description: |
     Shows when the users twitch account was created

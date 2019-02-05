@@ -7,5 +7,8 @@ userlevel: 'everyone'
 usage: '!lurk'
 cooldown: 10
 alias:
+optional:
+- '!unlurk/[default]'
+- '!relurk/[default]'
 sample: |
     DarthMinos ducks into the shadows and is in full lurk mode! <img src="https://static-cdn.jtvnw.net/emoticons/v1/1748885/1.0" alt="cowntLURK" />
