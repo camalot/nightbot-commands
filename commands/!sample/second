@@ -7,3 +7,11 @@ cooldown: 30
 usage: '!sample'
 description: | 
     A sample command
+variables:
+    SAMPE_VAR: 
+        default: ''
+        description: |
+            Yo!
+        label: Sample Variable Value
+        type: text
+        required: true
