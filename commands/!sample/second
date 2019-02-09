@@ -1,4 +1,4 @@
-comamnd: '!sample'
+command: '!sample'
 message: |
     A second version of sample command
 userlevel: 'everyone'
