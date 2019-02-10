@@ -1,0 +1,13 @@
+command: '!catfact'
+message: |
+    $(eval cat = JSON.parse(`$(urlfetch https://catfact.ninja/fact)`) || { fact: "Unable to load a cat fact. Must have used up all 9 lives." } }; (cat.fact || ""))
+userlevel:
+    everyone
+cooldown:
+    30
+alias:
+usage: '!catfact'
+description: |
+    Gets a random cat fact
+sample: |
+    The most popular pedigreed cat is the Persian cat, followed by the Main Coon cat and the Siamese cat.

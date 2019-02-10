@@ -1,0 +1,13 @@
+command: '!lmgtfy'
+message: |
+    This might be the answer you are looking for: $(eval q = urlencode("$(query)"); `http://lmgtfy.com/?q=${q}`)
+userlevel:
+    everyone
+cooldown:
+    30
+alias:
+usage: '!lmgtfy twitch sings'
+description: |
+    Takes a query and returns a lmgtfy link
+sample: |
+    This might be the answer you are looking for: <a href="http://lmgtfy.com/?q=twitch+sings">http://lmgtfy.com/?q=twitch+sings</a>
