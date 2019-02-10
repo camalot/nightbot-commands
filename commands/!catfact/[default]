@@ -1,6 +1,6 @@
 command: '!catfact'
 message: |
-    $(eval cat = JSON.parse(`$(urlfetch https://catfact.ninja/fact)`) || { fact: "Unable to load a cat fact. Must have used up all 9 lives." } }; (cat.fact || ""))
+    $(eval cat = JSON.parse("$(urlfetch https://catfact.ninja/fact)") || { fact: "Unable to load a cat fact. Must have used up all 9 lives." }; (cat.fact || ""))
 userlevel:
     everyone
 cooldown:
