@@ -12,10 +12,10 @@ sample: |
 required:
 - '!wins/[default]'
 variables:
-    - WINS_COMMAND
-        default: '!wins'
-        description: |
-            The name of the <code>wins</code> command
-        label: '!wins command'
-        type: text
-        required: true
+- WINS_COMMAND
+    default: '!wins'
+    description: |
+        The name of the <code>wins</code> command
+    label: '!wins command'
+    type: text
+    required: true
