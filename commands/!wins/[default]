@@ -1,0 +1,13 @@
+command: '!wins'
+message: |
+    $(twitch $(channel) "{{displayName}}") has 0 wins.
+userlevel: 'moderator'
+alias: '!commands'
+cooldown: 30
+usage: '!addwin'
+description: |
+    Displays the total number of wins that have been set by the <code>!addwin</code> command.
+sample: |
+    @DarthMinos has 30 wins.
+required:
+- '!addwin/[default]'
