@@ -16,6 +16,6 @@ variables:
         default: '!wins'
         description: |
             The name of the <code>wins</code> command
-        label: !wins command
+        label: '!wins command'
         type: text
         required: true
