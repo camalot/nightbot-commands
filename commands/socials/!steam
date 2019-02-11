@@ -1,0 +1,19 @@
+command: '!steam'
+message: |
+    Add $(twitch $(channel) "{{displayName}}") on steam: https://steamcommunity.com/search/users/#text=${STEAM_ACCOUNT}
+userlevel: 'everyone'
+alias: ''
+cooldown: 30
+usage: '!steam'
+description: |
+    Display what your steam url is so people can friend you on steam.
+sample: |
+    Add DarthMinos on steam: <a href="https://steamcommunity.com/search/users/#text=darthcamalot">https://steamcommunity.com/search/users/#text=darthcamalot</a>
+variables:
+    STEAM_ACCOUNT:
+        default: ''
+        description: |
+            Your steam account
+        label: steam Account
+        type: text
+        required: true

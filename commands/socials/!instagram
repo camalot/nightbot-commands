@@ -1,0 +1,19 @@
+command: '!instagram'
+message: |
+    Follow $(twitch $(channel) "{{displayName}}") on instagram at https://instagram.com/${INSTAGRAM_ACCOUNT} to stay up to date with the stream.
+userlevel: 'everyone'
+alias: ''
+cooldown: 30
+usage: '!instagram'
+description: |
+    Display what your instagram url is so people can follow you on instagram.
+sample: |
+    Follow DarthMinos on instagram at <a href="https://instagram.com/darthminos">https://instagram.com/darthminos</a> to stay up to date with the stream.
+variables:
+    INSTAGRAM_ACCOUNT:
+        default: ''
+        description: |
+            Your instagram account
+        label: instagram Account
+        type: text
+        required: true

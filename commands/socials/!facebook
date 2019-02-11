@@ -1,0 +1,19 @@
+command: '!facebook'
+message: |
+    Follow $(twitch $(channel) "{{displayName}}") on facebook: https://facebook.com/${FACEBOOK_ACCOUNT}
+userlevel: 'everyone'
+alias: ''
+cooldown: 30
+usage: '!facebook'
+description: |
+    Display what your facebook url is so people can follow you.
+sample: |
+    Follow DarthMinos on facebook: <a href="https://facebook.com/rconrad87">https://facebook.com/rconrad87</a>
+variables:
+    FACEBOOK_ACCOUNT:
+        default: ''
+        description: |
+            Your facebook account
+        label: facebook Account
+        type: text
+        required: true

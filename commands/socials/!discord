@@ -1,0 +1,19 @@
+command: '!discord'
+message: |
+    Join the Discord: https://discord.gg/${DISCORD_CODE}
+userlevel: 'everyone'
+alias: ''
+cooldown: 30
+usage: '!discord'
+description: |
+    Display link for people to join your discord.
+sample: |
+    Join the Discord: <a href="http://discord.darthminos.tv">https://discord.gg/XXXXXX</a>
+variables:
+    DISCORD_CODE:
+        default: ''
+        description: |
+            Discord invite code
+        label: Discord invite code
+        type: text
+        required: true
