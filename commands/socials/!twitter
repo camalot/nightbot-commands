@@ -1,0 +1,19 @@
+command: '!twitter'
+message: |
+    Follow $(twitch $(channel) "{{displayName}}") on twitter at https://twitter.com/${TWITTER_ACCOUNT} to stay up to date with the stream.
+userlevel: 'everyone'
+alias: ''
+cooldown: 30
+usage: '!twitter'
+description: |
+    Display what your twitter url is so people can follow you on twitter.
+sample: |
+    Follow DarthMinos on twitter at <a href="https://twitter.com/abryanconrad">https://twitter.com/abryanconrad</a> to stay up to date with the stream.
+variables:
+    TWITTER_ACCOUNT:
+        default: ''
+        description: |
+            Your Twitter account
+        label: Twitter Account
+        type: text
+        required: true
