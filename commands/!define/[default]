@@ -1,0 +1,11 @@
+command: '!define'
+message: |
+    $(urlfetch https://api.scorpstuff.com/urbandictionary.php?term=$(querystring))
+userlevel: 'everyone'
+alias:
+cooldown: 30
+usage: '!define life'
+sample: |
+    life - A sexually-transmitted, [terminal disease].
+description: |
+    Returns a definition for a word(or phrase) from urbandictionary.com (recommended 18+)

@@ -1,7 +1,7 @@
 command: |
     !so
 message: |
-    Make sure to give $(twitch $(touser) "{{displayName}}") a follow! $(twitch $(eval user = "$(touser)".replace(/^\@/gi,""); user.toString();) "{{displayName}} was last seen playing {{game}}") - https://twitch.tv/$(eval "$(touser)".replace(/^\@/gi,"");)
+    $(twitch $(eval "$(touser)".replace(/^\@/gi,"")) "Give {{displayName}} a follow. They were last seen playing {{game}}") - https://twitch.tv/$(eval "$(touser)".replace(/^\@/gi,"");)
 userlevel:
     moderator
 cooldown:
@@ -12,4 +12,4 @@ description: |
 usage: |
     !so @DarthMinos
 sample: |
-    Make sure to give DarthMinos a follow! DarthMinos was last seen playing Apex Legends - <a href="https://twitch.tv/darthminos">https://twitch.tv/darthminos</a>
+    Give DarthMinos a follow. They were last seen playing Apex Legends - <a href="https://twitch.tv/darthminos">https://twitch.tv/darthminos</a>
