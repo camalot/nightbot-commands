@@ -1,0 +1,12 @@
+command: '!dadjoke'
+message: |
+    I've got all the dad jokes: $(urlfetch http://api.scorpstuff.com/dadjokes.php)
+description:
+    Gets a dad joke and returns it to chat
+userlevel: 'everyone'
+usage: '!dadjoke'
+cooldown: 10
+alias:
+optional:
+sample: |
+    I've got all the dad jokes: A horse walks into a bar. The bar tender says "Hey." The horse says "Sure."

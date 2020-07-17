@@ -1,0 +1,13 @@
+command: '!stats'
+message: |
+    Numbers are not important, but if you must know: $(twitch $(channel) "{{subscriberCount}} subscribers, {{views}} views, {{followers}} followers")
+description:
+    A message for the user to notify they are going to lurk mode.
+userlevel: 'everyone'
+usage: '!stats'
+cooldown: 10
+alias:
+optional:
+
+sample: |
+    DarthMinos ducks into the shadows and is in full lurk mode! <img src="https://static-cdn.jtvnw.net/emoticons/v1/1748885/1.0" alt="cowntLURK" />

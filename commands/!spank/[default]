@@ -1,0 +1,12 @@
+command: '!spank'
+message: |
+    $(user) asks consent to spank $(eval a=decodeURIComponent(`$(querystring)`);a==``?`$(urlfetch https://2g.be/twitch/randomviewer.php?channel=$(channel))`:a)
+description:
+    "spanks" a user defined (or random)
+userlevel: 'everyone'
+usage: '!spank'
+cooldown: 10
+alias:
+optional:
+sample: |
+    DarthMinos asks permission to spank CustomMadeHH
