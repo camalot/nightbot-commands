@@ -1,0 +1,19 @@
+command: '!creatorcode'
+message: |
+    /me Are you going to buy something on the EPIC store? Use CREATOR CODE: ${CREATORCODE} - It helps support this stream and doesn't cost you anything.
+userlevel: 'everyone'
+alias:
+cooldown: 30
+usage: '!creatorcode'
+sample: |
+    <span style="color: #8E44AD" class="me">Are you going to buy something on the EPIC store? Use CREATOR CODE: DarthMinos - It helps support this stream and doesn't cost you anything.</span>
+description: |
+    EPIC Creator Code Link
+variables:
+    CREATORCODE: 
+        default: ''
+        description: |
+            Your EPIC Creator Code
+        label: Creator Code
+        type: text
+        required: true

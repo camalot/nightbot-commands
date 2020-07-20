@@ -1,0 +1,12 @@
+command: '!prime'
+message: |
+    Want a FREE Twitch Subscription every month? Click here => https://twitch.amazon.com/prime to link an Amazon Prime account to your Twitch account! Twitch Prime subscriptions don't auto-renew so you'll have to manually resub, you might even have one available right now.
+description:
+    Info on Twitch Prime
+userlevel: 'everyone'
+usage: '!prime'
+cooldown: 30
+alias:
+optional:
+sample: |
+    Want a FREE Twitch Subscription every month? Click here => <a href="https://twitch.amazon.com/prime">https://twitch.amazon.com/prime</a> to link an Amazon Prime account to your Twitch account! Twitch Prime subscriptions don't auto-renew so you'll have to manually resub, you might even have one available right now.

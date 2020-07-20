@@ -1,0 +1,10 @@
+command: '!ad'
+message: |
+    /me Don't go anywhere. if you are seeing an ad right now, it is so there are no ads when new people come in for the first time. Watching the ad helps out the streamer. Subscribers do not get ads.
+userlevel: 'moderator'
+cooldown: 30
+usage: '!ad'
+description: |
+    Give information about an advertisement that is being currently ran on the channel.
+sample: |
+    <span style="color: #8E44AD" class="me">Don't go anywhere. if you are seeing an ad right now, it is so there are no ads when new people come in for the first time. Watching the ad helps out the streamer. Subscribers do not get ads.</span style="color: #8E44AD">

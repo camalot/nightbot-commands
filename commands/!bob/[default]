@@ -1,0 +1,10 @@
+command: '!bob'
+message: |
+    FUCK YOU BOB Kappa
+userlevel: 'everyone'
+cooldown: 30
+usage: '!bob'
+description: |
+    Give information about an advertisement that is being currently ran on the channel.
+sample: |
+    FUCK YOU BOB <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" alt="Kappa" />

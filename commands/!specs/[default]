@@ -1,0 +1,19 @@
+command: '!specs'
+message: |
+    Check out my full PC Specs here: 💻 ${PCPARTPICKER_URL} 🖱
+userlevel: 'everyone'
+alias:
+cooldown: 30
+usage: '!specs'
+sample: |
+    Check out my full PC Specs here: 💻 <a href="https://pcpartpicker.com/user/camalot/saved/K3fwVn">https://pcpartpicker.com/user/camalot/saved/K3fwVn</a> 🖱
+description: |
+    PC Specs Link
+variables:
+    PCPARTPICKER_URL: 
+        default: ''
+        description: |
+            Your PC PART PICKER URL
+        label: PC Part Picker URL
+        type: text
+        required: true
