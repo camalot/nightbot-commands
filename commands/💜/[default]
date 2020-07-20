@@ -1,0 +1,10 @@
+command: '<3'
+message: |
+    <3 TwitchUnity LOVE YOU TwitchUnity <3
+userlevel: 'everyone'
+cooldown: 30
+alias: 
+description: Nightbot shows how much they love the person
+usage: '<3'
+sample: |
+    💜 <img src="https://static-cdn.jtvnw.net/emoticons/v1/196892/1.0" alt="TwitchUnity" /> LOVE YOU <img src="https://static-cdn.jtvnw.net/emoticons/v1/196892/1.0" alt="TwitchUnity" /> 💜
