@@ -1,0 +1,11 @@
+command: '!english'
+message: |
+    $(touser) Please keep the chat in English only. If we can't understand it, it will be deleted to avoid the use of profanity. / Por favor mantén el chat en ingles / Bitte haltet den Chat englisch / Maintenez le chat en anglais s’il vous plait. / 请用英语聊天 / يرجى الحفاظ على الدردشة باللغة الإنجليزية/ به دلیل فهمیدن همگان در چت خواهش مندیم فقط به زبان انگلیسی در چت حرف بزنید / Por favor mantenha o chat em inglês
+userlevel: 'everyone'
+cooldown: 30
+alias:
+usage: '!english @thekrymzun'
+description: |
+    Asks to only use english in the chat.
+sample: |
+     thekrymzun Please keep the chat in English only. If we can't understand it, it will be deleted to avoid the use of profanity. / Por favor mantén el chat en ingles / Bitte haltet den Chat englisch / Maintenez le chat en anglais s’il vous plait. / 请用英语聊天 / يرجى الحفاظ على الدردشة باللغة الإنجليزية/ به دلیل فهمیدن همگان در چت خواهش مندیم فقط به زبان انگلیسی در چت حرف بزنید / Por favor mantenha o chat em inglês
