@@ -1,10 +1,10 @@
 command: '!wins'
 message: |
     $(twitch $(channel) "{{displayName}}") has 0 wins.
-userlevel: 'moderator'
-alias: '!commands'
+userlevel: 'everyone'
+alias: ''
 cooldown: 30
-usage: '!addwin'
+usage: '!wins'
 description: |
     Displays the total number of wins that have been set by the <code>!addwin</code> command.
 sample: |
