@@ -1,0 +1,14 @@
+command: '!multidix'
+message: |
+    $(twitch $(channel) "{{displayName}}") is not currently dixper squaded with anyone else, but thank you for checking.
+userlevel: 'everyone'
+cooldown: 30
+alias:
+usage: '!multidix'
+description: |
+    Displays the current dixper squad info
+sample: |
+    DarthMinos is dixper squaded with bndgaming, ruglabok : Skills affect everyone -> https://dixper.gg/DarthMinos -> https://dixper.gg/bndgaming -> https://dixper.gg/ruglabok
+required:
+- '!setmultidix/[default]'
+- '!clearmultidix/[default]'

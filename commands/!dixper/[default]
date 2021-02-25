@@ -1,0 +1,11 @@
+command: '!dixper'
+message: |
+    Support me in a funny way with Dixper skills. Visit my profile to get skill crates and interact with me https://dixper.gg/$(twitch $(channel) "{{displayName}}")  - I will give you your first crate to try it out you won't be disappointed! Here is the tutorial if needed -> https://www.youtube.com/watch?v=IaKrMtodgws
+userlevel: 'everyone'
+alias: ''
+cooldown: 30
+usage: '!dixper'
+description: |
+    Gives the dixper information
+sample: |
+    Support me in a funny way with Dixper skills. Visit my profile to get skill crates and interact with me https://dixper.gg/DarthMinos - I will give you your first crate to try it out you won't be disappointed! Here is the tutorial if needed -> https://www.youtube.com/watch?v=IaKrMtodgws

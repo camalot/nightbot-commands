@@ -1,0 +1,14 @@
+command: '!setmultidix'
+message: |
+    edit !multidix $(twitch $(channel) "{{displayName}}") is dixper squaded with $(eval ("$(query)" || "").replace(/\//g, ", ")) : Skills affect everyone -> https://dixper.gg/$(channel) -> https://dixper.gg/$(eval ("$(query)" || "").toLowerCase().replace(/\@/gi,"").replace(/\//g, " -> https://dixper.gg/"))
+userlevel: 'moderator'
+cooldown: 30
+alias: '!commands'
+usage: '!semultidix @bndgaming/@ruglabok'
+description: |
+    Sets the dixper squad info
+sample: |
+    @DarthMinos -> The command "!multidix" has been edited successfully.
+required:
+- '!multidix/[default]'
+- '!clearmultidix/[default]'

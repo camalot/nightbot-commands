@@ -1,0 +1,12 @@
+command: '!dickspur'
+message: ''
+userlevel: 'everyone'
+alias: '!dixper'
+cooldown: 30
+usage: '!dickspur'
+description: |
+    This is an alias because this is what it sounds like.
+sample: |
+    Support me in a funny way with Dixper skills. Visit my profile to get skill crates and interact with me https://dixper.gg/DarthMinos - I will give you your first crate to try it out you won't be disappointed! Here is the tutorial if needed -> https://www.youtube.com/watch?v=IaKrMtodgws
+required:
+ - !dixper/[default]

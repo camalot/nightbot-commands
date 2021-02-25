@@ -1,0 +1,14 @@
+command: '!clearmultidix'
+message: |
+    edit !multidix $(twitch $(channel) "{{displayName}}") is not currently dixper squaded with anyone else, but thank you for checking.
+userlevel: 'moderator'
+alias: '!commands'
+cooldown: 30
+usage: '!clearmultidix'
+description: |
+    Clear a previously set !multidix command
+sample: |
+    @DarthMinos -> The command "!multidix" has been edited successfully.
+required:
+- '!multidix/[default]'
+- '!setmultidix/[default]'
