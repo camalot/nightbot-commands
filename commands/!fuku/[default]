@@ -1,6 +1,6 @@
 command: '!fuku'
 message: |
-    $(eval fu = JSON.parse(`$(urlfetch http://fuku.io/api/random)`); (`${fu.text} (${fu.language}) ${fu.help ? " - " + fu.help : "" } - http://fuku.io/${fu.code}`))
+    $(eval fu = JSON.parse(`$(urlfetch http://fuku.io/api/random)`); (`"Fuck You" in ${fu.language} is ${fu.text} ${fu.help ? " - " + fu.help : ""} - http://fuku.io/${fu.code}`))
 userlevel: 'everyone'
 cooldown: 30
 alias:
