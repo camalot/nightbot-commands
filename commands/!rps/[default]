@@ -1,0 +1,13 @@
+command: '!rps'
+message: |
+    $(user) dropped $(eval const responses = ['Rock','Paper','Scissors']; responses[Math.floor(Math.random() * responses.length)];) against $(eval a=decodeURIComponent(`$(querystring)`);b=`$(urlfetch https://2g.be/twitch/randomviewer.php?channel=$(channel))`;a?a.slice(0,400):(b!=`Empty viewer list`?b:`no one`)) and their $(eval const responses = ['Rock','Paper','Scissors','Rock','Paper','Scissors','Rock','Paper', 'Scissors']; responses[Math.floor(Math.random() * responses.length)];)!
+userlevel: 'everyone'
+cooldown: 30
+alias:
+    
+usage: '!rps'
+description: |
+    A rock/paper/scissors battle - credit <a href="https://twitch.tv/ToeKneeTM">@ToeKneeTM</a> - <a target="_blank" href="https://chatbots.toekneetm.com/nightbot.html">https://chatbots.toekneetm.com/nightbot.html</a>
+sample: |
+    DarthMinos dropped Scissors against RuleOfNone and their Rock!
+required: []
