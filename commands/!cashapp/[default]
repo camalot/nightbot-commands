@@ -1,0 +1,18 @@
+command: '!cashapp'
+message: |
+    /me 💲💲💲 Install the CashApp and get $5 for free when you spend your first $5. Just signup here: https://cash.app/app/${CASHAPP_CODE} 💲💲💲
+userlevel: 'moderator'
+cooldown: 30
+usage: '!cashapp'
+description: |
+    Cash App Advertisement
+sample: |
+    <span style="color: #8E44AD" class="me">💲💲💲 Install the CashApp and get $5 for free when you spend your first $5. Just signup here: https://cash.app/app/${CASHAPP_CODE} 💲💲💲</span style="color: #8E44AD">
+variables:
+    CASHAPP_CODE: 
+        default: 'DNGKCSV'
+        description: |
+            Your CashApp Referral Code
+        label: Referral Code
+        type: text
+        required: true
