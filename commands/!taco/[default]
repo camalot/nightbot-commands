@@ -1,10 +1,8 @@
 command: '!taco'
-message: |
-    "🌮🌮🌮 Join an amazing discord community that I am pationate about. TACO - The Alliance Collective Order - Tacos Aren't Just For Tuesday 🌮🌮🌮 -> https://discord.gg/NtuFW4uvbx"
+message: "🌮🌮🌮 Join an amazing discord community that I am pationate about. TACO - The Alliance Collective Order - Tacos Aren't Just For Tuesday 🌮🌮🌮 -> https://discord.gg/NtuFW4uvbx"
 userlevel: 'everyone'
 cooldown: 30
 usage: '!taco'
 description: |
     Give information on TACO community.
-sample: |
-    "🌮🌮🌮 Join an amazing discord community that I am pationate about. TACO - The Alliance Collective Order - Tacos Aren't Just For Tuesday 🌮🌮🌮 -> <a href='https://discord.gg/NtuFW4uvbx'>https://discord.gg/NtuFW4uvbx</a>"
+sample: "🌮🌮🌮 Join an amazing discord community that I am pationate about. TACO - The Alliance Collective Order - Tacos Aren't Just For Tuesday 🌮🌮🌮 -> <a href='https://discord.gg/NtuFW4uvbx'>https://discord.gg/NtuFW4uvbx</a>"
