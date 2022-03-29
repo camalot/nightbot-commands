@@ -1,11 +1,11 @@
 command: '!taco'
-message: "🌮🌮🌮 Join an amazing discord community that I am passionate about. TACO - The Alliance Collective Order - Tacos Aren't Just For Tuesday 🌮🌮🌮 -> https://discord.gg/${DISCORD_INVITE_CODE}"
+message: "🌮🌮🌮 Join an amazing discord community that I am passionate about. TACO - The Alliance Collective Order - Tacos Aren't Just For Tuesday 🌮🌮🌮 Discord -> https://discord.gg/${DISCORD_INVITE_CODE} Twitch Team -> https://twitch.tv/team/taco"
 userlevel: 'everyone'
 cooldown: 30
 usage: '!taco'
 description: |
     Give information on TACO community.
-sample: "🌮🌮🌮 Join an amazing discord community that I am passionate about. TACO - The Alliance Collective Order - Tacos Aren't Just For Tuesday 🌮🌮🌮 -> <a href='https://discord.gg/NtuFW4uvbx'>https://discord.gg/NtuFW4uvbx</a>"
+sample: "🌮🌮🌮 Join an amazing discord community that I am passionate about. TACO - The Alliance Collective Order - Tacos Aren't Just For Tuesday 🌮🌮🌮 Discord -> <a href='https://discord.gg/NtuFW4uvbx'>https://discord.gg/NtuFW4uvbx</a> Twitch Team <a href="https://twitch.tv/team/taco">https://twitch.tv/team/taco</a>
 variables:
     DISCORD_INVITE_CODE: 
         default: 'NtuFW4uvbx'
